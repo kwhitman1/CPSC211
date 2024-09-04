@@ -1,12 +1,18 @@
 
 public class BoardView {
+	
+	IsolaBoard board;
 
-	public BoardView(IsolaBoard board) {
-		// TODO Auto-generated constructor stub
+	public BoardView(IsolaBoard b) {
+		
+		board = b;
 	}
 
 	public void display() {
-		// TODO Auto-generated method stub
+		
+		drawLine1();
+		drawLine2();
+		
 		
 	}
 
