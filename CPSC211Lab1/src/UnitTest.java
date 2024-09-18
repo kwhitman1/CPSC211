@@ -108,6 +108,7 @@ public class UnitTest {
     	
     	// Setup
     	IsolaBoard b = new IsolaBoard();
+    	
     	// Method Execution
     	BoardView v = new BoardView(b);
         
